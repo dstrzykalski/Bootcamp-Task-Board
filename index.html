@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="task-board">
+        <div class="column" id="not-yet-started">
+            <h2>Not Yet Started</h2>
+        </div>
+        <button id="in-progress-button">Move To In Progress</button>
+        <div class="column" id="in-progress">
+            <h2>In Progress</h2>
+        </div>
+        <button id="completed-button">Move To Completed</button>
+        <div class="column" id="completed">
+            <h2>Completed</h2>
+        </div>
+    </div>
+
+
+  <button id="add-task">Add Task</button>
+
+<div id="modal" style="display: none;">
+    <h2>Add Task</h2>
+    <input type="text" id="title" placeholder="Title">
+    <textarea id="description" placeholder="Description"></textarea>
+    <input type="date" id="deadline">
+    <button onclick="saveTask()">Save</button>
+    <button onclick="closeModal()">Cancel</button>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
