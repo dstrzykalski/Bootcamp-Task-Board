@@ -13,3 +13,6 @@ This project serves as my 5th challenge in the coding bootcamp. The task board a
 
 ## Issues
 -I'm not sure if the day.js aspect is working but hopefully what feedback I receive will help me improve that feature.
+
+## Deployed URL
+https://dstrzykalski.github.io/Bootcamp-Task-Board/
