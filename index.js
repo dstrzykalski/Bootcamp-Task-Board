@@ -1,4 +1,4 @@
-// This code should set up all the basic functions which will be called later.
+// This code should set up all the basic variables which will be called later.
 const notYetStartedColumn = document.getElementById('not-yet-started');
 const inProgressColumn = document.getElementById('in-progress');
 const completedColumn = document.getElementById('completed');
